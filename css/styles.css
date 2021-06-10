@@ -21,9 +21,9 @@
 .navbar-toggler span {
     display: block;
     width: 30px;
-    height: 3px;
+    height: 4px;
     background-color: #770606;
-    margin: 6px 0;
+    margin: 4px 0;
 }
 
 #menu .nav-item {
@@ -34,13 +34,9 @@
 #menu .nav-link {
     color: #770606;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     padding-right: 8px;
     padding-left: 8px;
-}
-
-#body .navbar-brand {
-    color: #000000;
 }
 
 #home {
@@ -58,9 +54,9 @@
     height: 100%;
 }
 
-
 .myBox {
-    margin-top: 50vh;
+    height: 100vh;
+    padding-top: 50vh;
     color: #ffffff;
     text-align: center;
 }
@@ -68,4 +64,13 @@
 .myBox h1 {
     font-weight: 500;
     font-size: 60px;
+}
+
+.myBox p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#home .container {
+    height: 100vh;
 }
