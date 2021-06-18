@@ -7,6 +7,13 @@
     font-weight: 400;
 }
 
+#myBrand {
+    font-weight: 700;
+    font-size: 40px;
+    color: #770606;
+    /*text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);*/
+}
+
 #myNav {
     background-color: #ffffff;
     box-shadow: 0 8px 8px -6px rgb(0, 0, 0,.6);
@@ -73,4 +80,13 @@
 
 #home .container {
     height: 100vh;
+}
+
+#navJS a:hover{
+    transition: transform 400ms;
+    transform: translateY(-5px);
+}
+
+#navJS .active {
+    color:blue;
 }
