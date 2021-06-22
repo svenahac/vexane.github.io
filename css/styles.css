@@ -85,8 +85,11 @@
 #navJS a:hover{
     transition: transform 400ms;
     transform: translateY(-5px);
+    color:#2e0202;
+    font-weight: 700;
 }
 
 #navJS .active {
-    color:blue;
+    color:#2e0202;
+    font-weight: 700;
 }
